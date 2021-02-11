@@ -65,7 +65,7 @@ class PokerCard(Card):
 
     def compare(self, other: PokerCard) -> CardCompare:
         # Using "order" as the card's weight/strength.
-        # Since cards are typically ordered by their by strength (ascending), leveraging that logic here
+        # Since cards are typically ordered by their strength (ascending), leveraging that logic here
         if self.order > other.order:
             return CardCompare.WIN
         elif self.order < other.order:
