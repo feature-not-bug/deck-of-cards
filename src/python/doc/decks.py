@@ -92,6 +92,7 @@ class PokerDeck(Deck):
         cards = []
 
         # each card has 4 copies, one in each suit
+        # NOTE: Making constants for identifiers and relationship between id<->name would be a good idea but deferring
         for suit in [Suit.HEART, Suit.SPADE, Suit.CLUB, Suit.DIAMOND]:
             cards.append(PokerCard('2', 'Two', suit, 2))
             cards.append(PokerCard('3', 'Three', suit, 3))
