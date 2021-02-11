@@ -1,4 +1,4 @@
-# Deck of Cards
+# Deck of Cards (doc)
 
 Priority of focus was on class design and testing for this coding assignment. I have included some notes via Python comments in parts of the code to explain some of my thoughts I had along the way.
 
